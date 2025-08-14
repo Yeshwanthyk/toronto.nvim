@@ -14,7 +14,7 @@ local palette = {
   red           = "#f38ba8",  -- Red
   yellow        = "#f9e2af",  -- Yellow - spring yellow
   cyan          = "#94e2d5",  -- Teal - spring cyan
-  
+
   -- UI tints using Catppuccin surface colors
   ui_bg         = "#313244",  -- Surface0
   ui_bg_alt     = "#45475a",  -- Surface1
