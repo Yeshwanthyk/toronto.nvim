@@ -20,12 +20,62 @@ function M.set_terminal_colors(colors)
   vim.g.terminal_color_15 = colors.terminal.white_bright
 end
 
+---Get variant-specific highlight overrides
+---@param variant string
+---@param colors ColorScheme
+function M.get_variant_overrides(variant, colors)
+  if variant == 'spring' then
+    return {
+      DiffAdd     = { fg = colors.string },
+      GitSignsAdd = { fg = colors.string },
+    }
+  elseif variant == 'summer' then
+    return {
+      -- Git/Diff accents use string green
+      DiffAdd      = { fg = colors.string },
+      GitSignsAdd  = { fg = colors.string },
+      -- Selection/search/UI accents use fg to match palette
+      IncSearch    = { fg = colors.fg, bg = colors.number, bold = true },
+      Search       = { fg = colors.fg, bg = colors.yellow },
+      Substitute   = { fg = colors.fg, bg = colors.method, bold = true },
+      TabLineSel   = { fg = colors.fg, bg = colors.method, bold = true },
+      PmenuSel     = { fg = colors.fg, bg = colors.method, bold = true },
+      TelescopeSelection      = { fg = colors.fg, bg = colors.method, bold = true },
+      TelescopeSelectionCaret = { fg = colors.fg, bg = colors.method },
+      Todo         = { fg = colors.fg, bg = colors.yellow, bold = true },
+    }
+  elseif variant == 'dusk' then
+    return {
+      Directory = { fg = colors.method },
+      -- netrw
+      netrwClassify = { fg = colors.method },
+      netrwCmdSep   = { fg = colors.dim },
+      netrwComment  = { fg = colors.comment },
+      netrwDir      = { fg = colors.method },
+      netrwExe      = { fg = colors.string },
+      netrwHelpCmd  = { fg = colors.keyword },
+      netrwLink     = { fg = colors.number },
+      netrwList     = { fg = colors.fg },
+      netrwSymLink  = { fg = colors.number },
+      netrwVersion  = { fg = colors.dim },
+      -- NvimTree tweak
+      NvimTreeFolderName = { fg = colors.method },
+    }
+  else
+    return {}
+  end
+end
+
 ---@param opts? toronto.Config
 function M.setup(opts)
   opts = require("toronto.config").extend(opts)
 
   local colors = require("toronto.colors").setup(opts)
   local groups = require("toronto.groups").setup(colors, opts)
+  
+  -- Apply variant-specific overrides
+  local variant_overrides = M.get_variant_overrides(opts.style, colors)
+  groups = vim.tbl_extend("force", groups, variant_overrides)
 
   -- only needed to clear when not the default colorscheme
   if vim.g.colors_name then

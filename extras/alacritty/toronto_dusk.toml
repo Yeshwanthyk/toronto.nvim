@@ -1,5 +1,4 @@
 # Toronto Dusk theme for Alacritty
-# https://github.com/your-username/toronto.nvim
 
 [colors.primary]
 background = "#000000"

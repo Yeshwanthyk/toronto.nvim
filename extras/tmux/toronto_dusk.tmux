@@ -1,5 +1,4 @@
 # Toronto Dusk theme for Tmux
-# https://github.com/your-username/toronto.nvim
 
 # Status bar
 set -g status-style "bg=#0f0f0f,fg=#ffffff"

@@ -1,5 +1,4 @@
 # Toronto Dusk theme for Delta
-# https://github.com/your-username/toronto.nvim
 # Add this to your .gitconfig in [delta] section or include this file
 
 [delta "toronto-dusk"]

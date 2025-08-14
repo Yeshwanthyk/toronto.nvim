@@ -1,6 +1,5 @@
 #!/bin/bash
 # Toronto Dusk theme for FZF
-# https://github.com/your-username/toronto.nvim
 
 export FZF_DEFAULT_OPTS="$FZF_DEFAULT_OPTS \
   --color=fg:ffffff,bg:000000,hl:87ceeb \

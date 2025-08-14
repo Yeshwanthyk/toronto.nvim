@@ -15,7 +15,7 @@ function M.get(colors, opts)
     CmpItemKindDefault     = { fg = colors.variable, bg = colors.none },
     CmpItemKindTabNine     = { fg = colors.cyan, bg = colors.none },
     CmpItemMenu            = { fg = colors.comment, bg = colors.none },
-    
+
     -- Kind highlights for different completion types
     CmpItemKindText          = { fg = colors.fg },
     CmpItemKindMethod        = { fg = colors.method },

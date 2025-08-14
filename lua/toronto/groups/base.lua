@@ -2,7 +2,7 @@ local M = {}
 
 function M.get(colors, opts)
   local bg = opts.transparent and "NONE" or colors.bg
-  
+
   return {
     -- Base UI
     Normal        = { fg = colors.fg, bg = bg },
