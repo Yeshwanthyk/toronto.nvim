@@ -1,0 +1,43 @@
+#!/bin/bash
+
+# Toronto.nvim build script
+# Generates external tool themes for all variants
+
+echo "🎨 Generating Toronto themes for external tools..."
+echo
+
+# Generate themes using Neovim
+nvim --headless --noplugin -u NONE -c "
+lua << EOF
+-- Add toronto.nvim to path
+local cwd = vim.fn.getcwd()
+package.path = cwd .. '/lua/?.lua;' .. cwd .. '/lua/?/init.lua;' .. package.path
+
+-- Generate all themes
+local extra = require('toronto.extra')
+local generated = extra.generate_all()
+
+-- Print results
+for tool, variants in pairs(generated) do
+  print('Generated ' .. tool .. ' themes:')
+  for variant, filepath in pairs(variants) do
+    print('  ' .. variant .. ' -> ' .. filepath)
+  end
+end
+EOF
+" -c "qa!"
+
+if [ $? -eq 0 ]; then
+  echo
+  echo "✅ All themes generated successfully!"
+  echo "📁 Check the extras/ directory for the generated files"
+  echo
+  echo "Usage:"
+  echo "  Tmux:     source extras/tmux/toronto_dusk.tmux"
+  echo "  FZF:      source extras/fzf/toronto_dusk.sh"
+  echo "  Delta:    include extras/delta/toronto_dusk.gitconfig in your .gitconfig"
+  echo "  Alacritty: include extras/alacritty/toronto_dusk.toml in your alacritty.toml"
+else
+  echo "❌ Theme generation failed"
+  exit 1
+fi

@@ -1,0 +1,55 @@
+# Toronto Dusk theme for Alacritty
+# https://github.com/your-username/toronto.nvim
+
+[colors.primary]
+background = "#000000"
+foreground = "#ffffff"
+dim_foreground = "#cccccc"
+
+[colors.cursor]
+text = "#000000"
+cursor = "#ffffff"
+
+[colors.vi_mode_cursor]
+text = "#000000"
+cursor = "#b8860b"
+
+[colors.selection]
+text = "CellForeground"
+background = "#333333"
+
+[colors.search.matches]
+foreground = "#000000"
+background = "#b8860b"
+
+[colors.search.focused_match]
+foreground = "#000000"
+background = "#87ceeb"
+
+[colors.line_indicator]
+foreground = "None"
+background = "None"
+
+[colors.footer_bar]
+foreground = "#ffffff"
+background = "#0f0f0f"
+
+[colors.normal]
+black = "#000000"
+red = "#ff8899"
+green = "#87ceeb"
+yellow = "#b8860b"
+blue = "#88d5ff"
+magenta = "#c8a2c8"
+cyan = "#4ec9b0"
+white = "#ffffff"
+
+[colors.bright]
+black = "#262626"
+red = "#ff9aaa"
+green = "#98ddef"
+yellow = "#c9971f"
+blue = "#99e6ff"
+magenta = "#d9b3d9"
+cyan = "#5fdac1"
+white = "#ffffff"
