@@ -7,6 +7,12 @@ M.plugins = {
   ["telescope.nvim"]        = "telescope",
   ["nvim-tree.lua"]         = "nvim-tree", 
   ["gitsigns.nvim"]         = "gitsigns",
+  ["snacks.nvim"]           = "snacks",
+  ["nvim-cmp"]              = "cmp",
+  ["flash.nvim"]            = "flash",
+  ["lazy.nvim"]             = "lazy",
+  ["noice.nvim"]            = "noice",
+  ["which-key.nvim"]        = "which-key",
 }
 
 ---@param colors ColorScheme
@@ -32,7 +38,12 @@ function M.setup(colors, opts)
   -- Auto-detect plugins if enabled
   if opts.plugins.auto then
     for plugin, group_name in pairs(M.plugins) do
-      if package.loaded[plugin] or vim.fn.exists(":Telescope") == 2 or vim.fn.exists(":NvimTreeToggle") == 2 then
+      if package.loaded[plugin] or 
+         vim.fn.exists(":Telescope") == 2 or 
+         vim.fn.exists(":NvimTreeToggle") == 2 or
+         vim.fn.exists(":Lazy") == 2 or
+         vim.fn.exists(":Noice") == 2 or
+         vim.fn.exists(":WhichKey") == 2 then
         local ok, plugin_groups = pcall(require, "toronto.groups." .. group_name)
         if ok then
           groups = vim.tbl_extend("force", groups, plugin_groups.get(colors, opts))
