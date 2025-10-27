@@ -1,28 +1,26 @@
 local palette = {
-  bg            = "#F2EEDE",  -- Paper background color
-  fg            = "#000000",  -- Paper text color
-  dim           = "#555555",  -- Paper bright black for less important text
-  comment       = "#707070",  -- Medium gray for comments
-  string        = "#216609",  -- Paper green for strings
-  number        = "#1E6FCC",  -- Paper blue for numbers
-  keyword       = "#000000",  -- Black for keywords (def, class, if, etc.)
-  method        = "#158c86",  -- Paper cyan for methods
-  class         = "#216609",  -- Paper green for classes (consistent with strings)
-  type_builtin  = "#158c86",  -- Paper cyan for built-in types
-  variable      = "#333333",  -- Dark gray for variables
-  decorator     = "#B58900",  -- Paper yellow for decorators
-  red           = "#CC3E28",  -- Paper red
-  yellow        = "#B58900",  -- Paper yellow for warnings
-  cyan          = "#158c86",  -- Paper cyan
-  purple        = "#5C21A5",  -- Paper purple
+  bg            = "#fffaf2",  -- soft peach canvas
+  fg            = "#22160f",  -- rich espresso text
+  dim           = "#9d816d",  -- muted cocoa for secondary text
+  comment       = "#b09382",  -- warm sand comment tone
+  string        = "#ff5c8f",  -- watermelon pink strings
+  number        = "#8b6dff",  -- twilight lavender numbers
+  keyword       = "#22160f",  -- strong dark keywords
+  method        = "#ff9f1c",  -- radiant amber functions
+  class         = "#2ca7a2",  -- ocean teal for classes/types
+  type_builtin  = "#40beb9",  -- lighter teal builtins
+  variable      = "#3b2d22",  -- brown ink for identifiers
+  decorator     = "#ff9f1c",  -- shared amber for decorators/macros
+  red           = "#ff5c8f",  -- vibrant pink-red errors
+  yellow        = "#ff9f1c",  -- golden highlight
+  cyan          = "#2ca7a2",  -- teal accents
 
-  -- UI tints based on Paper highlight colors
-  ui_bg         = "#D8D5C7",  -- Paper highlight background
-  ui_bg_alt     = "#E8E5D7",  -- Lighter variant
-  cursorline    = "#D8D5C7",  -- Paper highlight color for cursor line
-  visual        = "#D8D5C7",  -- Paper highlight color for selection
-  border        = "#AAAAAA",  -- Paper white (bright) for borders
+  -- UI tints echoing the sunset-inspired theme
+  ui_bg         = "#fff6e8",  -- sunlit panel background
+  ui_bg_alt     = "#f8ead7",  -- deeper sand contrast
+  cursorline    = "#ffe3d4",  -- peach active line
+  visual        = "#ffd9c6",  -- translucent selection blush
+  border        = "#e3c3a1",  -- warm beige border
 }
 
 return palette
-

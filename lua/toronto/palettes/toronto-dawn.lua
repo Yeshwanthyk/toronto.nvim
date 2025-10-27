@@ -1,26 +1,26 @@
 local palette = {
-  bg            = "#ffffff",  -- white background
-  fg            = "#000000",  -- black text
-  dim           = "#666666",  -- darker gray for less important text
-  comment       = "#707070",  -- medium gray for comments
-  string        = "#8b4b8b",  -- darker purple for strings
-  number        = "#1e5f99",  -- darker blue for numbers
-  keyword       = "#000000",  -- black for keywords (def, class, if, etc.)
-  method        = "#4169e1",  -- royal blue (for methods only)
-  class         = "#2e7d7d",  -- dark teal (for classes and other names)
-  type_builtin  = "#1a7a7a",  -- dark cyan
-  variable      = "#333333",  -- dark gray for variables
-  decorator     = "#b8860b",  -- dark goldenrod for decorators
-  red           = "#cc3366",  -- darker red
-  yellow        = "#d2691e",  -- chocolate/orange for warnings
-  cyan          = "#228b8d",  -- dark cyan
+  bg            = "#f9faff",  -- softened white canvas
+  fg            = "#101010",  -- deep charcoal text
+  dim           = "#56607b",  -- cool muted slate for secondary text
+  comment       = "#7a86a2",  -- relaxed blue-gray comment tone
+  string        = "#a064ff",  -- pastel lavender strings
+  number        = "#1f96e0",  -- clear sky blue numbers/constants
+  keyword       = "#11141c",  -- near-black keywords for focus
+  method        = "#379cff",  -- bright azure functions/methods
+  class         = "#27b3c2",  -- crisp teal for types/classes
+  type_builtin  = "#3ed3d4",  -- lighter aqua builtins
+  variable      = "#2f3344",  -- neutral ink for identifiers
+  decorator     = "#f0933c",  -- warm amber decorators/macros
+  red           = "#ff5c93",  -- punchy raspberry red
+  yellow        = "#f28a3a",  -- sunny orange for warnings
+  cyan          = "#27b3c2",  -- teal accents
 
-  -- UI tints
-  ui_bg         = "#f8f8f8",  -- very light gray
-  ui_bg_alt     = "#f0f0f0",  -- light gray
-  cursorline    = "#e8e8e8",  -- light gray for cursor line
-  visual        = "#d0d0d0",  -- medium light gray for selection
-  border        = "#c0c0c0",  -- medium gray for borders
+  -- UI tints inspired by the refreshed Dawn theme
+  ui_bg         = "#f2f3fb",  -- gentle blue-cream panels
+  ui_bg_alt     = "#e9ebf5",  -- slightly darker panel contrast
+  cursorline    = "#e2e8ff",  -- soft periwinkle active line
+  visual        = "#d4dcff",  -- translucent selection wash
+  border        = "#c1c4f0",  -- cool lilac border
 }
 
 return palette
