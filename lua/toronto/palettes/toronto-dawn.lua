@@ -21,6 +21,33 @@ local palette = {
   cursorline    = "#e2e8ff",  -- soft periwinkle active line
   visual        = "#d4dcff",  -- translucent selection wash
   border        = "#c1c4f0",  -- cool lilac border
+
+  terminal = {
+    black = "#f0f1ff",
+    black_bright = "#f0f1ff",
+    black_dim = "#ebeefd",
+    red = "#ff568a",
+    red_bright = "#ff6a9b",
+    red_dim = "#e24b7a",
+    green = "#2cbfc0",
+    green_bright = "#3ed3d4",
+    green_dim = "#259fa0",
+    yellow = "#f28a3a",
+    yellow_bright = "#ffb25f",
+    yellow_dim = "#c96c28",
+    blue = "#2d8cff",
+    blue_bright = "#4b9dff",
+    blue_dim = "#2271d2",
+    magenta = "#a95cff",
+    magenta_bright = "#bb78ff",
+    magenta_dim = "#8e43df",
+    cyan = "#209fdf",
+    cyan_bright = "#34b3f5",
+    cyan_dim = "#1a84b6",
+    white = "#101010",
+    white_bright = "#404040",
+    white_dim = "#707070",
+  },
 }
 
 return palette

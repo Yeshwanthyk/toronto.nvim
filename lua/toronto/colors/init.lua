@@ -68,7 +68,7 @@ function M.setup(opts)
   colors.bg_search = colors.yellow
 
   -- Terminal colors
-  colors.terminal = {
+  local terminal_defaults = {
     black = colors.bg,
     black_bright = colors.border,
     red = colors.red,
@@ -84,8 +84,20 @@ function M.setup(opts)
     cyan = colors.cyan,
     cyan_bright = Util.brighten(colors.cyan),
     white = colors.fg,
-    white_bright = colors.fg,
+    white_bright = Util.brighten(colors.fg),
   }
+
+  colors.terminal = vim.tbl_deep_extend("force", terminal_defaults, palette.terminal or {})
+
+  -- Ensure dim variants are always present for generators that expect them.
+  colors.terminal.black_dim = colors.terminal.black_dim or colors.terminal.black
+  colors.terminal.red_dim = colors.terminal.red_dim or colors.terminal.red
+  colors.terminal.green_dim = colors.terminal.green_dim or colors.terminal.green
+  colors.terminal.yellow_dim = colors.terminal.yellow_dim or colors.terminal.yellow
+  colors.terminal.blue_dim = colors.terminal.blue_dim or colors.terminal.blue
+  colors.terminal.magenta_dim = colors.terminal.magenta_dim or colors.terminal.magenta
+  colors.terminal.cyan_dim = colors.terminal.cyan_dim or colors.terminal.cyan
+  colors.terminal.white_dim = colors.terminal.white_dim or colors.dim
 
   opts.on_colors(colors)
 

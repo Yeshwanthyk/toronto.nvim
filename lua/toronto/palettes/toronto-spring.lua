@@ -21,6 +21,33 @@ local palette = {
   cursorline    = "#252b3f",  -- subtle active line glow
   visual        = "#2b3047",  -- gentle selection fill
   border        = "#2f374f",  -- cool indigo border
+
+  terminal = {
+    black = "#212637",
+    black_bright = "#2b3047",
+    black_dim = "#2f374f",
+    red = "#ffb4a2",
+    red_bright = "#ffc7b8",
+    red_dim = "#d49486",
+    green = "#a8eca2",
+    green_bright = "#bef5b8",
+    green_dim = "#7fbd79",
+    yellow = "#ffd580",
+    yellow_bright = "#ffe2a3",
+    yellow_dim = "#d7b666",
+    blue = "#7cc9ff",
+    blue_bright = "#93d2ff",
+    blue_dim = "#5ea2d4",
+    magenta = "#ffb4a2",
+    magenta_bright = "#ffc7b8",
+    magenta_dim = "#d49486",
+    cyan = "#7cc9ff",
+    cyan_bright = "#93d2ff",
+    cyan_dim = "#5ea2d4",
+    white = "#dfe5f0",
+    white_bright = "#eff3f8",
+    white_dim = "#6f7b8f",
+  },
 }
 
 return palette
