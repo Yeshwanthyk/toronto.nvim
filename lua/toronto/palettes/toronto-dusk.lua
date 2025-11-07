@@ -1,5 +1,5 @@
 local palette = {
-  bg            = "#000000",
+  bg            = "#0f0d0c",
   fg            = "#f6f6f6",
   dim           = "#d0d0e8",
   comment       = "#a0a0b8",  -- cooler gray to soften long-form comments
@@ -16,16 +16,15 @@ local palette = {
   cyan          = "#32ffe0",
 
   -- UI tints that match the refreshed Zed port
-  ui_bg         = "#0f0f0f",
-  ui_bg_alt     = "#111111",
-  cursorline    = "#1a1320",
-  visual        = "#3f2d4a",
-  border        = "#262626",
+  ui_bg         = "#131110",
+  ui_bg_alt     = "#131110",
+  visual        = "#4a365b",
+  border        = "#3f2d4a",
 
   terminal = {
-    black = "#0f0f0f",
-    black_bright = "#0f0f0f",
-    black_dim = "#0f0f0f",
+    black = "#0f0d0c",
+    black_bright = "#0f0d0c",
+    black_dim = "#0f0d0c",
     red = "#ff8899",
     red_bright = "#ff8899",
     red_dim = "#ff8899",
@@ -38,9 +37,9 @@ local palette = {
     blue = "#7fd2ff",
     blue_bright = "#7fd2ff",
     blue_dim = "#7fd2ff",
-    magenta = "#d98cff",
-    magenta_bright = "#d98cff",
-    magenta_dim = "#d98cff",
+    magenta = "#a888b8",
+    magenta_bright = "#a888b8",
+    magenta_dim = "#a888b8",
     cyan = "#32ffe0",
     cyan_bright = "#32ffe0",
     cyan_dim = "#32ffe0",

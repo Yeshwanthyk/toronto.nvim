@@ -1,5 +1,5 @@
 local palette = {
-  bg            = "#fffaf2",  -- soft peach canvas
+  bg            = "#fff6e8",  -- soft peach canvas
   fg            = "#22160f",  -- rich espresso text
   dim           = "#9d816d",  -- muted cocoa for secondary text
   comment       = "#b09382",  -- warm sand comment tone
@@ -16,7 +16,7 @@ local palette = {
   cyan          = "#2ca7a2",  -- teal accents
 
   -- UI tints echoing the sunset-inspired theme
-  ui_bg         = "#fff6e8",  -- sunlit panel background
+  ui_bg         = "#f8ead7",  -- sunlit panel background
   ui_bg_alt     = "#f8ead7",  -- deeper sand contrast
   cursorline    = "#ffe3d4",  -- peach active line
   visual        = "#ffd9c6",  -- translucent selection blush

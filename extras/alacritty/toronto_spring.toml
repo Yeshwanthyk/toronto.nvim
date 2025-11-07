@@ -1,0 +1,55 @@
+# Toronto Spring theme for Alacritty
+# https://github.com/your-username/toronto.nvim
+
+[colors.primary]
+background = "#1a1d2a"
+foreground = "#dfe5f0"
+dim_foreground = "#6f7b8f"
+
+[colors.cursor]
+text = "#1a1d2a"
+cursor = "#dfe5f0"
+
+[colors.vi_mode_cursor]
+text = "#1a1d2a"
+cursor = "#ffd580"
+
+[colors.selection]
+text = "CellForeground"
+background = "#2b3047"
+
+[colors.search.matches]
+foreground = "#1a1d2a"
+background = "#ffd580"
+
+[colors.search.focused_match]
+foreground = "#1a1d2a"
+background = "#7cc9ff"
+
+[colors.line_indicator]
+foreground = "None"
+background = "None"
+
+[colors.footer_bar]
+foreground = "#dfe5f0"
+background = "#212637"
+
+[colors.normal]
+black = "#212637"
+red = "#ffb4a2"
+green = "#a8eca2"
+yellow = "#ffd580"
+blue = "#7cc9ff"
+magenta = "#ffb4a2"
+cyan = "#7cc9ff"
+white = "#dfe5f0"
+
+[colors.bright]
+black = "#2b3047"
+red = "#ffc7b8"
+green = "#bef5b8"
+yellow = "#ffe2a3"
+blue = "#93d2ff"
+magenta = "#ffc7b8"
+cyan = "#93d2ff"
+white = "#eff3f8"
