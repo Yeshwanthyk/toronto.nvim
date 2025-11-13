@@ -63,16 +63,16 @@ function M.get(colors, opts)
     SnacksPickerPickWin          = { fg = colors.fg, bg = colors.bg_search, bold = true },
     
     -- Picker file/directory paths
-    SnacksPickerFile             = { fg = colors.fg },
+    SnacksPickerFile             = { fg = colors.variable },
     SnacksPickerDirectory        = { fg = colors.method, bold = true },
-    SnacksPickerDir              = { fg = colors.dim },
+    SnacksPickerDir              = { fg = colors.comment },
     SnacksPickerPathHidden       = { fg = colors.comment },
     SnacksPickerPathIgnored      = { fg = colors.border },
     SnacksPickerDelim            = { fg = colors.border },
     SnacksPickerRow              = { fg = colors.number },
     SnacksPickerCol              = { fg = colors.dim },
     SnacksPickerMatch            = { fg = colors.number, bold = true },
-    SnacksPickerDimmed           = { fg = colors.dim },
+    SnacksPickerDimmed           = { fg = colors.comment },
     SnacksPickerLabel            = { fg = colors.cyan },
     SnacksPickerComment          = { fg = colors.comment },
     SnacksPickerLink             = { fg = colors.cyan },
@@ -94,9 +94,9 @@ function M.get(colors, opts)
     SnacksPickerGitStatusDeleted = { fg = colors.red },
     
     -- Explorer (uses same highlights as picker)
-    SnacksExplorerFile           = { fg = colors.fg },
+    SnacksExplorerFile           = { fg = colors.variable },
     SnacksExplorerDirectory      = { fg = colors.method, bold = true },
-    SnacksExplorerDir            = { fg = colors.dim },
+    SnacksExplorerDir            = { fg = colors.comment },
     SnacksExplorerPathHidden     = { fg = colors.comment },
     SnacksExplorerPathIgnored    = { fg = colors.border },
   }
