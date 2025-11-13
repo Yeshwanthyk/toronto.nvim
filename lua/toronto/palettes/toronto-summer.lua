@@ -18,6 +18,7 @@ local palette = {
   -- UI tints echoing the sunset-inspired theme
   ui_bg         = "#f8ead7",  -- sunlit panel background
   ui_bg_alt     = "#f8ead7",  -- deeper sand contrast
+  bg_sidebar    = "#fff6e8",  -- sidebar background
   cursorline    = "#ffe3d4",  -- peach active line
   visual        = "#ffd9c6",  -- translucent selection blush
   border        = "#e3c3a1",  -- warm beige border

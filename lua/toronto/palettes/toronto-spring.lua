@@ -18,6 +18,7 @@ local palette = {
   -- UI tints aligned with the Morning Dew variant
   ui_bg         = "#212637",  -- panel background
   ui_bg_alt     = "#2b3047",  -- elevated surface
+  bg_sidebar    = "#1a1d2a",  -- sidebar background
   cursorline    = "#252b3f",  -- subtle active line glow
   visual        = "#2b3047",  -- gentle selection fill
   border        = "#2f374f",  -- cool indigo border

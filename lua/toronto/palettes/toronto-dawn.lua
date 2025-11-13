@@ -18,6 +18,7 @@ local palette = {
   -- UI tints inspired by the refreshed Dawn theme
   ui_bg         = "#ebeff7",  -- gentle blue-cream panels
   ui_bg_alt     = "#e5eaf2",  -- slightly darker panel contrast
+  bg_sidebar    = "#f0f1f8",  -- sidebar background
   cursorline    = "#e2e8f3",  -- soft periwinkle active line
   visual        = "#c7b3ff",  -- translucent selection wash
   border        = "#b9bde0",  -- cool lilac border

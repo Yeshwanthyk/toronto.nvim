@@ -18,6 +18,8 @@ local palette = {
   -- UI tints that match the refreshed Zed port
   ui_bg         = "#131110",
   ui_bg_alt     = "#131110",
+  bg_sidebar    = "#0f0d0c",
+  cursorline    = "#1a1715",
   visual        = "#4a365b",
   border        = "#3f2d4a",
 
