@@ -54,13 +54,51 @@ function M.get(colors, opts)
     SnacksInputTitle          = { fg = colors.yellow },
 
     -- Picker
-    SnacksPickerInputBorder   = { fg = colors.yellow, bg = colors.bg_float },
-    SnacksPickerInputTitle    = { fg = colors.yellow, bg = colors.bg_float },
-    SnacksPickerBoxTitle      = { fg = colors.yellow, bg = colors.bg_float },
-    SnacksPickerSelected      = { fg = colors.string },
-    SnacksPickerToggle        = { bg = Util.blend_bg(colors.number, 0.1), fg = colors.number },
-    SnacksPickerPickWinCurrent = { fg = colors.fg, bg = colors.string, bold = true },
-    SnacksPickerPickWin       = { fg = colors.fg, bg = colors.bg_search, bold = true },
+    SnacksPickerInputBorder      = { fg = colors.yellow, bg = colors.bg_float },
+    SnacksPickerInputTitle       = { fg = colors.yellow, bg = colors.bg_float },
+    SnacksPickerBoxTitle         = { fg = colors.yellow, bg = colors.bg_float },
+    SnacksPickerSelected         = { fg = colors.string },
+    SnacksPickerToggle           = { bg = Util.blend_bg(colors.number, 0.1), fg = colors.number },
+    SnacksPickerPickWinCurrent   = { fg = colors.fg, bg = colors.string, bold = true },
+    SnacksPickerPickWin          = { fg = colors.fg, bg = colors.bg_search, bold = true },
+    
+    -- Picker file/directory paths
+    SnacksPickerFile             = { fg = colors.fg },
+    SnacksPickerDirectory        = { fg = colors.method, bold = true },
+    SnacksPickerDir              = { fg = colors.dim },
+    SnacksPickerPathHidden       = { fg = colors.comment },
+    SnacksPickerPathIgnored      = { fg = colors.border },
+    SnacksPickerDelim            = { fg = colors.border },
+    SnacksPickerRow              = { fg = colors.number },
+    SnacksPickerCol              = { fg = colors.dim },
+    SnacksPickerMatch            = { fg = colors.number, bold = true },
+    SnacksPickerDimmed           = { fg = colors.dim },
+    SnacksPickerLabel            = { fg = colors.cyan },
+    SnacksPickerComment          = { fg = colors.comment },
+    SnacksPickerLink             = { fg = colors.cyan },
+    SnacksPickerLinkBroken       = { fg = colors.red },
+    
+    -- Picker Git
+    SnacksPickerGitCommit        = { fg = colors.number },
+    SnacksPickerGitBranch        = { fg = colors.method },
+    SnacksPickerGitBranchCurrent = { fg = colors.string, bold = true },
+    SnacksPickerGitDate          = { fg = colors.dim },
+    SnacksPickerGitAuthor        = { fg = colors.variable },
+    SnacksPickerGitMsg           = { fg = colors.fg },
+    SnacksPickerGitType          = { fg = colors.keyword, bold = true },
+    SnacksPickerGitScope         = { fg = colors.method, italic = true },
+    SnacksPickerGitBreaking      = { fg = colors.red, bold = true },
+    SnacksPickerGitStatus        = { fg = colors.number },
+    SnacksPickerGitStatusAdded   = { fg = colors.class },
+    SnacksPickerGitStatusModified = { fg = colors.yellow },
+    SnacksPickerGitStatusDeleted = { fg = colors.red },
+    
+    -- Explorer (uses same highlights as picker)
+    SnacksExplorerFile           = { fg = colors.fg },
+    SnacksExplorerDirectory      = { fg = colors.method, bold = true },
+    SnacksExplorerDir            = { fg = colors.dim },
+    SnacksExplorerPathHidden     = { fg = colors.comment },
+    SnacksExplorerPathIgnored    = { fg = colors.border },
   }
 end
 
