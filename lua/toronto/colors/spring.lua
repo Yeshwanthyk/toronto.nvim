@@ -1,53 +1,57 @@
--- Cool dark variant aligned with the Zed Toronto Spring palette
-local palette = {
-  bg            = "#1a1d2a",  -- dawn sky background
-  fg            = "#dfe5f0",  -- softened moonlight text
-  dim           = "#6f7b8f",  -- muted slate for secondary text
-  comment       = "#6f7b8f",  -- matching slate comments
-  string        = "#ffb4a2",  -- peach blossom strings
-  number        = "#7cc9ff",  -- morning sky numbers/constants
-  keyword       = "#dfe5f0",  -- crisp light keywords
-  method        = "#7cc9ff",  -- fresh blue methods/functions
-  class         = "#a8eca2",  -- tender mint classes/types
-  type_builtin  = "#bef5b8",  -- lighter mint builtins
-  variable      = "#cad2df",  -- cool ink for identifiers
-  decorator     = "#ffd580",  -- warm honey decorators/macros
-  red           = "#ffb4a2",  -- spring coral accents
-  yellow        = "#ffd580",  -- soft golden highlights
-  cyan          = "#7cc9ff",  -- aqua accents for operators/UI
+-- Toronto Spring: Dim blue growth
+-- Cool dark surfaces with subdued spring accents.
 
-  -- UI tints aligned with the Morning Dew variant
-  ui_bg         = "#212637",  -- panel background
-  ui_bg_alt     = "#2b3047",  -- elevated surface
-  cursorline    = "#252b3f",  -- subtle active line glow
-  visual        = "#2b3047",  -- gentle selection fill
-  border        = "#2f374f",  -- cool indigo border
+local palette = {
+  bg            = "#0b0f17",
+  ui_bg         = "#101622",
+  ui_bg_alt     = "#151d2b",
+  cursorline    = "#111926",
+  visual        = "#1b2635",
+  border        = "#1d2632",
+
+  fg            = "#c3cad2",
+  dim           = "#6c7580",
+  comment       = "#59636f",
+  variable      = "#b5bec8",
+
+  keyword       = "#87919b",
+  class         = "#a4bf9a",
+  type_builtin  = "#b6ccb0",
+  cyan          = "#85a9bf",
+
+  string        = "#c09a90",
+  decorator     = "#c4aa70",
+
+  method        = "#9bb7c9",
+  number        = "#8eb0c8",
+  yellow        = "#c4aa70",
+  red           = "#c58b86",
 
   terminal = {
-    black = "#212637",
-    black_bright = "#2b3047",
-    black_dim = "#2f374f",
-    red = "#ffb4a2",
-    red_bright = "#ffc7b8",
-    red_dim = "#d49486",
-    green = "#a8eca2",
-    green_bright = "#bef5b8",
-    green_dim = "#7fbd79",
-    yellow = "#ffd580",
-    yellow_bright = "#ffe2a3",
-    yellow_dim = "#d7b666",
-    blue = "#7cc9ff",
-    blue_bright = "#93d2ff",
-    blue_dim = "#5ea2d4",
-    magenta = "#ffb4a2",
-    magenta_bright = "#ffc7b8",
-    magenta_dim = "#d49486",
-    cyan = "#7cc9ff",
-    cyan_bright = "#93d2ff",
-    cyan_dim = "#5ea2d4",
-    white = "#dfe5f0",
-    white_bright = "#eff3f8",
-    white_dim = "#6f7b8f",
+    black          = "#0b0f17",
+    black_bright   = "#59636f",
+    black_dim      = "#06090e",
+    red            = "#c58b86",
+    red_bright     = "#d49d98",
+    red_dim        = "#a77571",
+    green          = "#a4bf9a",
+    green_bright   = "#b6ccb0",
+    green_dim      = "#829a79",
+    yellow         = "#c4aa70",
+    yellow_bright  = "#d2bb83",
+    yellow_dim     = "#a68f5e",
+    blue           = "#8eb0c8",
+    blue_bright    = "#a1bfd3",
+    blue_dim       = "#7190a5",
+    magenta        = "#c09a90",
+    magenta_bright = "#cfaaa1",
+    magenta_dim    = "#9f7e76",
+    cyan           = "#85a9bf",
+    cyan_bright    = "#9bb7c9",
+    cyan_dim       = "#6d8fa4",
+    white          = "#c3cad2",
+    white_bright   = "#d4dae0",
+    white_dim      = "#8b949e",
   },
 }
 
