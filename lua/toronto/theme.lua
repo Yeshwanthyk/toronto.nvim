@@ -47,6 +47,22 @@ function M.get_variant_overrides(variant, colors)
   elseif variant == 'dusk' then
     return {
       Directory = { fg = colors.method },
+
+      -- Keep dark UI surfaces restrained; avoid bright filled cyan blocks.
+      PmenuSel      = { fg = colors.fg, bg = colors.visual, bold = true },
+      PmenuKindSel  = { fg = colors.method, bg = colors.visual, bold = true },
+      PmenuExtraSel = { fg = colors.dim, bg = colors.visual },
+      WildMenu      = { fg = colors.fg, bg = colors.visual, bold = true },
+      Search        = { fg = colors.bg, bg = colors.yellow },
+      IncSearch     = { fg = colors.bg, bg = colors.method, bold = true },
+      CurSearch     = { fg = colors.bg, bg = colors.method, bold = true },
+      Substitute    = { fg = colors.bg, bg = colors.method, bold = true },
+      Todo          = { fg = colors.bg, bg = colors.yellow, bold = true },
+
+      TelescopeResultsTitle = { fg = colors.class, bg = colors.ui_bg, bold = true },
+      TelescopePreviewTitle = { fg = colors.method, bg = colors.ui_bg, bold = true },
+      TelescopePromptTitle  = { fg = colors.string, bg = colors.ui_bg, bold = true },
+
       -- netrw
       netrwClassify = { fg = colors.method },
       netrwCmdSep   = { fg = colors.dim },

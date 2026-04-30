@@ -1,75 +1,75 @@
--- Toronto Dusk: Deep night, bright lights
--- Dark bg + punchy syntax for contrast
+-- Toronto Dusk: Vesper-inspired noir
+-- Near-black graphite surfaces with muted, low-glare syntax.
 
 local palette = {
   -- ═══════════════════════════════════════════════════════════════════
-  -- BACKGROUND (deep night - unchanged)
+  -- BACKGROUND (noir graphite)
   -- ═══════════════════════════════════════════════════════════════════
-  bg            = "#08090e",
-  ui_bg         = "#0c0e14",
-  ui_bg_alt     = "#12141c",
-  cursorline    = "#0e1018",
-  visual        = "#1a1e2a",
-  border        = "#20242e",
+  bg            = "#050506",
+  ui_bg         = "#080809",
+  ui_bg_alt     = "#0c0c0d",
+  cursorline    = "#0c0c0d",
+  visual        = "#171512",
+  border        = "#1a1a1a",
 
   -- ═══════════════════════════════════════════════════════════════════
-  -- FOREGROUND (brighter)
+  -- FOREGROUND (warm, subdued contrast)
   -- ═══════════════════════════════════════════════════════════════════
-  fg            = "#d4d8e4",      -- brighter main text
-  dim           = "#808898",
-  comment       = "#555c6c",      -- visible but receded
-  variable      = "#c0c4d0",
+  fg            = "#c8c4b8",
+  dim           = "#77736a",
+  comment       = "#56524c",
+  variable      = "#b8b4aa",
 
   -- ═══════════════════════════════════════════════════════════════════
-  -- COOL SPECTRUM (punchier)
+  -- COOL SPECTRUM (receded Toronto blue)
   -- ═══════════════════════════════════════════════════════════════════
-  keyword       = "#8898b8",      -- brighter steel
-  class         = "#7cb8dc",      -- punchy sky blue
-  type_builtin  = "#8cc4e4",
-  cyan          = "#7cb8dc",
+  keyword       = "#8e8a80",
+  class         = "#89a9b7",
+  type_builtin  = "#9bb5bd",
+  cyan          = "#89a9b7",
 
   -- ═══════════════════════════════════════════════════════════════════
-  -- TWILIGHT PURPLE (richer)
+  -- TWILIGHT PURPLE (dusty rose)
   -- ═══════════════════════════════════════════════════════════════════
-  string        = "#d0a8c0",      -- brighter lavender
-  decorator     = "#b898c8",      -- richer purple
+  string        = "#c69aa9",
+  decorator     = "#a88ca8",
 
   -- ═══════════════════════════════════════════════════════════════════
-  -- WARM (glowing)
+  -- WARM (amber focus)
   -- ═══════════════════════════════════════════════════════════════════
-  method        = "#e8c080",      -- bright amber
-  number        = "#e0a070",      -- vivid orange
-  yellow        = "#dcb060",      -- golden
-  red           = "#e07878",      -- clear red
+  method        = "#d7b66f",
+  number        = "#c58f62",
+  yellow        = "#bfa66a",
+  red           = "#c77575",
 
   -- ═══════════════════════════════════════════════════════════════════
   -- TERMINAL
   -- ═══════════════════════════════════════════════════════════════════
   terminal = {
-    black         = "#08090e",
-    black_bright  = "#555c6c",
-    black_dim     = "#040508",
-    red           = "#e07878",
-    red_bright    = "#f08888",
-    red_dim       = "#c86868",
-    green         = "#7cb8dc",
-    green_bright  = "#8cc8ec",
-    green_dim     = "#6ca8cc",
-    yellow        = "#e8c080",
-    yellow_bright = "#f8d090",
-    yellow_dim    = "#d8b070",
-    blue          = "#8898b8",
-    blue_bright   = "#98a8c8",
-    blue_dim      = "#7888a8",
-    magenta       = "#b898c8",
-    magenta_bright= "#c8a8d8",
-    magenta_dim   = "#a888b8",
-    cyan          = "#8cc4e4",
-    cyan_bright   = "#9cd4f4",
-    cyan_dim      = "#7cb4d4",
-    white         = "#d4d8e4",
-    white_bright  = "#e4e8f4",
-    white_dim     = "#a4a8b4",
+    black          = "#050506",
+    black_bright   = "#56524c",
+    black_dim      = "#020203",
+    red            = "#c77575",
+    red_bright     = "#d88a8a",
+    red_dim        = "#a86464",
+    green          = "#89a9b7",
+    green_bright   = "#9bb5bd",
+    green_dim      = "#73919e",
+    yellow         = "#d7b66f",
+    yellow_bright  = "#e2c582",
+    yellow_dim     = "#bfa66a",
+    blue           = "#8e8a80",
+    blue_bright    = "#a29d91",
+    blue_dim       = "#77736a",
+    magenta        = "#a88ca8",
+    magenta_bright = "#b99db8",
+    magenta_dim    = "#927891",
+    cyan           = "#9bb5bd",
+    cyan_bright    = "#acc4ca",
+    cyan_dim       = "#829ca4",
+    white          = "#c8c4b8",
+    white_bright   = "#d8d3c6",
+    white_dim      = "#9a958a",
   },
 }
 
