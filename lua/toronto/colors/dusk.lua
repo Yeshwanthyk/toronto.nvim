@@ -24,9 +24,9 @@ local palette = {
   -- COOL SPECTRUM (receded Toronto blue)
   -- ═══════════════════════════════════════════════════════════════════
   keyword       = "#8e8a80",
-  class         = "#89a9b7",
-  type_builtin  = "#9bb5bd",
-  cyan          = "#89a9b7",
+  class         = "#b2a0ad",
+  type_builtin  = "#bdaebb",
+  cyan          = "#a88ca8",
 
   -- ═══════════════════════════════════════════════════════════════════
   -- TWILIGHT PURPLE (dusty rose)
@@ -52,9 +52,9 @@ local palette = {
     red            = "#c77575",
     red_bright     = "#d88a8a",
     red_dim        = "#a86464",
-    green          = "#89a9b7",
-    green_bright   = "#9bb5bd",
-    green_dim      = "#73919e",
+    green          = "#b2a0ad",
+    green_bright   = "#bdaebb",
+    green_dim      = "#998795",
     yellow         = "#d7b66f",
     yellow_bright  = "#e2c582",
     yellow_dim     = "#bfa66a",
@@ -64,9 +64,9 @@ local palette = {
     magenta        = "#a88ca8",
     magenta_bright = "#b99db8",
     magenta_dim    = "#927891",
-    cyan           = "#9bb5bd",
-    cyan_bright    = "#acc4ca",
-    cyan_dim       = "#829ca4",
+    cyan           = "#a88ca8",
+    cyan_bright    = "#bdaebb",
+    cyan_dim       = "#927891",
     white          = "#c8c4b8",
     white_bright   = "#d8d3c6",
     white_dim      = "#9a958a",

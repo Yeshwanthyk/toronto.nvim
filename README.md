@@ -1,18 +1,10 @@
 # toronto.nvim
 
-A modular Neovim colorscheme with multiple variants and external tool support.
+Neovim colorscheme with four variants and generated themes for external tools.
 
-## ✨ Features
+## Installation
 
-- **4 beautiful variants**: Dark (dusk, spring) and light (dawn, summer) themes
-- **Modular architecture**: Clean separation of concerns for easy customization
-- **External tool support**: Tmux, FZF, Delta, and Alacritty themes included
-- **Plugin integration**: Auto-detection for Telescope, NvimTree, GitSigns, and more
-- **Highly configurable**: User callbacks, style options, and transparency support
-
-## 📦 Installation
-
-### LazyVim / lazy.nvim
+### lazy.nvim
 
 ```lua
 {
@@ -21,154 +13,94 @@ A modular Neovim colorscheme with multiple variants and external tool support.
   priority = 1000,
   config = function()
     require("toronto").setup({
-      style = "dusk", -- or: dawn | spring | summer
-      transparent = false,
-      styles = {
-        comments = { italic = true },
-        keywords = { bold = false },
-        functions = { bold = true },
-      },
+      style = "dusk", -- dawn | dusk | spring | summer
     })
     require("toronto").load()
   end,
 }
 ```
 
-### Traditional vim-plug
+### vim-plug
 
 ```vim
 Plug 'Yeshwanthyk/toronto.nvim'
 ```
 
-## 🎨 Variants
+## Variants
 
-| Variant | Background | Description |
-|---------|------------|-------------|
-| `dusk` | Dark | Deep blacks with vibrant accents |
-| `spring` | Dark | Based on dusk with variant-specific tweaks |
-| `dawn` | Light | Clean whites with readable contrasts |
-| `summer` | Light | Based on dawn with variant-specific tweaks |
+| Variant | Background | Notes |
+|---------|------------|-------|
+| `dusk` | dark | near-black, warm, muted |
+| `spring` | dark | cool, dim blue |
+| `dawn` | light | warm off-white |
+| `summer` | light | parchment, terracotta |
 
-## 🚀 Usage
-
-### Basic Usage
+## Usage
 
 ```lua
--- Load directly
 require("toronto").load_variant("dusk")
-
--- Or use colorscheme command
-vim.cmd("colorscheme toronto-dusk")
 ```
 
-### Advanced Configuration
+or:
+
+```vim
+colorscheme toronto-dusk
+```
+
+## Configuration
 
 ```lua
 require("toronto").setup({
   style = "dusk",
   transparent = false,
   terminal_colors = true,
+  dim_inactive = false,
   styles = {
     comments = { italic = true },
     keywords = { bold = false },
     functions = { bold = true },
     variables = {},
-    sidebars = "dark", -- or "transparent" or "normal"
+    sidebars = "dark", -- dark | transparent | normal
     floats = "dark",
   },
-  dim_inactive = false,
-  
-  -- Customize colors
-  on_colors = function(colors)
-    colors.error = "#ff0000"
-  end,
-  
-  -- Customize highlights  
-  on_highlights = function(highlights, colors)
-    highlights.Comment = { fg = colors.dim, italic = true }
-  end,
-  
-  -- Plugin support
+  on_colors = function(colors) end,
+  on_highlights = function(highlights, colors) end,
   plugins = {
-    all = true, -- enable all plugins
-    -- or manually specify:
-    ["telescope.nvim"] = true,
-    ["nvim-tree.lua"] = true,
-  }
+    all = true,
+    auto = true,
+  },
 })
 
 require("toronto").load()
 ```
 
-## 🔧 External Tools
+## External tools
 
-Toronto.nvim includes themes for popular external tools. Generate them with:
+Generate themes:
 
 ```bash
-# Generate all themes
 ./scripts/build
 ```
 
-### Tmux
+Supported generators:
 
-```bash
-# Add to your .tmux.conf
-source-file path/to/toronto.nvim/extras/tmux/toronto_dusk.tmux
-```
+- Alacritty
+- Delta
+- FZF
+- Tmux
 
-### FZF
+## Layout
 
-```bash
-# Add to your shell rc file (.bashrc, .zshrc, etc.)
-source path/to/toronto.nvim/extras/fzf/toronto_dusk.sh
-```
-
-### Delta (Git diff)
-
-```gitconfig
-# Add to your .gitconfig
-[include]
-    path = path/to/toronto.nvim/extras/delta/toronto_dusk.gitconfig
-
-[delta]
-    features = toronto-dusk
-```
-
-### Alacritty
-
-```toml
-# Add to your alacritty.toml
-import = ["path/to/toronto.nvim/extras/alacritty/toronto_dusk.toml"]
-```
-
-## 🏗️ Architecture
-
-```
+```text
 lua/toronto/
-├── colors/           # Color definitions with inheritance
-├── groups/           # Modular highlight groups
-├── extra/            # External tool theme generators
-├── config.lua        # Configuration system
-├── theme.lua         # Theme application engine
-└── util.lua          # Color utilities and blending
+├── colors/    # palettes
+├── groups/    # highlight groups
+├── extra/     # external tool generators
+├── config.lua
+├── theme.lua
+└── util.lua
 ```
 
-## 🎯 Plugin Support
+## License
 
-Auto-detected plugins:
-- Telescope
-- NvimTree
-- GitSigns
-- And more...
-
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Run tests: `./scripts/build` 
-5. Submit a pull request
-
-## 📄 License
-
-MIT License - see LICENSE file for details.
+MIT
