@@ -1,0 +1,55 @@
+# Toronto Summer theme for Alacritty
+# https://github.com/your-username/toronto.nvim
+
+[colors.primary]
+background = "#fbf2e4"
+foreground = "#281d15"
+dim_foreground = "#785f4f"
+
+[colors.cursor]
+text = "#fbf2e4"
+cursor = "#281d15"
+
+[colors.vi_mode_cursor]
+text = "#fbf2e4"
+cursor = "#80641f"
+
+[colors.selection]
+text = "CellForeground"
+background = "#e7cfad"
+
+[colors.search.matches]
+foreground = "#fbf2e4"
+background = "#80641f"
+
+[colors.search.focused_match]
+foreground = "#fbf2e4"
+background = "#8f551a"
+
+[colors.line_indicator]
+foreground = "None"
+background = "None"
+
+[colors.footer_bar]
+foreground = "#281d15"
+background = "#f4e6d2"
+
+[colors.normal]
+black = "#281d15"
+red = "#b85f63"
+green = "#3f8e88"
+yellow = "#b9782e"
+blue = "#9d6c57"
+magenta = "#b06f7e"
+cyan = "#3f8e88"
+white = "#dec5a6"
+
+[colors.bright]
+black = "#5f4a3b"
+red = "#c97073"
+green = "#5a9c97"
+yellow = "#c98a42"
+blue = "#ad7d68"
+magenta = "#bf8190"
+cyan = "#5a9c97"
+white = "#fbf2e4"

@@ -50,7 +50,9 @@ end
 
 ---@param options? toronto.Config
 function M.extend(options)
-  return vim.tbl_deep_extend("force", M.options, options or {})
+  -- Include defaults even when callers use load()/load_variant() without
+  -- calling setup() first (as documented in the README).
+  return vim.tbl_deep_extend("force", M.defaults, M.options, options or {})
 end
 
 return M

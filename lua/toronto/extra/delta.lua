@@ -10,15 +10,15 @@ function M.generate(colors, variant)
     # General
     dark = %s
     syntax-theme = none
-    
+
     # Colors
     minus-style = "%s"
     minus-emph-style = "%s bold"
     minus-non-emph-style = "%s"
-    plus-style = "%s" 
+    plus-style = "%s"
     plus-emph-style = "%s bold"
     plus-non-emph-style = "%s"
-    
+
     # Line numbers
     line-numbers = true
     line-numbers-left-style = "%s"
@@ -26,15 +26,15 @@ function M.generate(colors, variant)
     line-numbers-minus-style = "%s"
     line-numbers-plus-style = "%s"
     line-numbers-zero-style = "%s"
-    
-    # File headers  
+
+    # File headers
     file-style = "%s bold"
     file-decoration-style = "%s ul"
-    
+
     # Hunk headers
     hunk-header-style = "%s bold"
     hunk-header-decoration-style = "%s ul"
-    
+
     # Commit style
     commit-style = "%s bold"
     commit-decoration-style = "none"

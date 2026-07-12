@@ -16,35 +16,35 @@ local palette = {
   -- FOREGROUND
   -- ═══════════════════════════════════════════════════════════════════
   fg            = "#281d15",
-  dim           = "#8c725f",
-  comment       = "#9b8270",
+  dim           = "#785f4f",
+  comment       = "#765e4f",
   variable      = "#5f4a3b",
 
   -- ═══════════════════════════════════════════════════════════════════
   -- COOL (sea glass)
   -- ═══════════════════════════════════════════════════════════════════
   keyword       = "#6f665c",
-  class         = "#3f8e88",
-  type_builtin  = "#5a9c97",
-  cyan          = "#3f8e88",
+  class         = "#1f706b",
+  type_builtin  = "#226f69",
+  cyan          = "#1f706b",
 
   -- ═══════════════════════════════════════════════════════════════════
   -- WARM (terracotta sun)
   -- ═══════════════════════════════════════════════════════════════════
-  method        = "#b9782e",
-  string        = "#b06f7e",
-  number        = "#9d6c57",
-  decorator     = "#b9782e",
-  yellow        = "#a9863d",
-  red           = "#b85f63",
+  method        = "#8f551a",
+  string        = "#955462",
+  number        = "#895743",
+  decorator     = "#8f551a",
+  yellow        = "#80641f",
+  red           = "#a74449",
 
   -- ═══════════════════════════════════════════════════════════════════
   -- TERMINAL
   -- ═══════════════════════════════════════════════════════════════════
   terminal = {
-    black          = "#f4e6d2",
-    black_bright   = "#e7cfad",
-    black_dim      = "#dec5a6",
+    black          = "#281d15",
+    black_bright   = "#5f4a3b",
+    black_dim      = "#785f4f",
     red            = "#b85f63",
     red_bright     = "#c97073",
     red_dim        = "#9d5054",
@@ -63,9 +63,9 @@ local palette = {
     cyan           = "#3f8e88",
     cyan_bright    = "#5a9c97",
     cyan_dim       = "#34736f",
-    white          = "#281d15",
-    white_bright   = "#4d382b",
-    white_dim      = "#8c725f",
+    white          = "#dec5a6",
+    white_bright   = "#fbf2e4",
+    white_dim      = "#efdcc1",
   },
 }
 

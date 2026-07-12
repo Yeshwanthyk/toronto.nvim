@@ -1,0 +1,36 @@
+# Toronto Dusk theme for Delta
+# https://github.com/your-username/toronto.nvim
+# Add this to your .gitconfig in [delta] section or include this file
+
+[delta "toronto-dusk"]
+    # General
+    dark = true
+    syntax-theme = none
+
+    # Colors
+    minus-style = "#c77575"
+    minus-emph-style = "#c77575 bold"
+    minus-non-emph-style = "#c77575"
+    plus-style = "#d7b66f"
+    plus-emph-style = "#d7b66f bold"
+    plus-non-emph-style = "#d7b66f"
+
+    # Line numbers
+    line-numbers = true
+    line-numbers-left-style = "#7d7970"
+    line-numbers-right-style = "#7d7970"
+    line-numbers-minus-style = "#c77575"
+    line-numbers-plus-style = "#d7b66f"
+    line-numbers-zero-style = "#7d7970"
+
+    # File headers
+    file-style = "#c8c4b8 bold"
+    file-decoration-style = "#d7b66f ul"
+
+    # Hunk headers
+    hunk-header-style = "#d7b66f bold"
+    hunk-header-decoration-style = "#d7b66f ul"
+
+    # Commit style
+    commit-style = "#bfa66a bold"
+    commit-decoration-style = "none"

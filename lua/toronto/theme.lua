@@ -26,23 +26,23 @@ end
 function M.get_variant_overrides(variant, colors)
   if variant == 'spring' then
     return {
-      DiffAdd     = { fg = colors.string },
-      GitSignsAdd = { fg = colors.string },
+      DiffAdd     = { fg = colors.class },
+      GitSignsAdd = { fg = colors.class },
     }
   elseif variant == 'summer' then
     return {
-      -- Git/Diff accents use string green
-      DiffAdd      = { fg = colors.string },
-      GitSignsAdd  = { fg = colors.string },
-      -- Selection/search/UI accents use fg to match palette
-      IncSearch    = { fg = colors.fg, bg = colors.number, bold = true },
-      Search       = { fg = colors.fg, bg = colors.yellow },
-      Substitute   = { fg = colors.fg, bg = colors.method, bold = true },
-      TabLineSel   = { fg = colors.fg, bg = colors.method, bold = true },
-      PmenuSel     = { fg = colors.fg, bg = colors.method, bold = true },
-      TelescopeSelection      = { fg = colors.fg, bg = colors.method, bold = true },
-      TelescopeSelectionCaret = { fg = colors.fg, bg = colors.method },
-      Todo         = { fg = colors.fg, bg = colors.yellow, bold = true },
+      -- Git/Diff additions use the sea-glass green.
+      DiffAdd      = { fg = colors.class },
+      GitSignsAdd  = { fg = colors.class },
+      -- Light text on the darker warm accents keeps selected text legible.
+      IncSearch    = { fg = colors.bg, bg = colors.number, bold = true },
+      Search       = { fg = colors.bg, bg = colors.yellow },
+      Substitute   = { fg = colors.bg, bg = colors.method, bold = true },
+      TabLineSel   = { fg = colors.bg, bg = colors.method, bold = true },
+      PmenuSel     = { fg = colors.bg, bg = colors.method, bold = true },
+      TelescopeSelection      = { fg = colors.bg, bg = colors.method, bold = true },
+      TelescopeSelectionCaret = { fg = colors.bg, bg = colors.method },
+      Todo         = { fg = colors.bg, bg = colors.yellow, bold = true },
     }
   elseif variant == 'dusk' then
     return {

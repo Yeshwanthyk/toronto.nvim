@@ -1,0 +1,36 @@
+# Toronto Spring theme for Delta
+# https://github.com/your-username/toronto.nvim
+# Add this to your .gitconfig in [delta] section or include this file
+
+[delta "toronto-spring"]
+    # General
+    dark = true
+    syntax-theme = none
+
+    # Colors
+    minus-style = "#c58b86"
+    minus-emph-style = "#c58b86 bold"
+    minus-non-emph-style = "#c58b86"
+    plus-style = "#9bb7c9"
+    plus-emph-style = "#9bb7c9 bold"
+    plus-non-emph-style = "#9bb7c9"
+
+    # Line numbers
+    line-numbers = true
+    line-numbers-left-style = "#78828d"
+    line-numbers-right-style = "#78828d"
+    line-numbers-minus-style = "#c58b86"
+    line-numbers-plus-style = "#9bb7c9"
+    line-numbers-zero-style = "#78828d"
+
+    # File headers
+    file-style = "#c3cad2 bold"
+    file-decoration-style = "#9bb7c9 ul"
+
+    # Hunk headers
+    hunk-header-style = "#9bb7c9 bold"
+    hunk-header-decoration-style = "#9bb7c9 ul"
+
+    # Commit style
+    commit-style = "#c4aa70 bold"
+    commit-decoration-style = "none"

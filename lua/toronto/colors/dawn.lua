@@ -16,35 +16,35 @@ local palette = {
   -- FOREGROUND
   -- ═══════════════════════════════════════════════════════════════════
   fg            = "#2c2420",
-  dim           = "#787068",
-  comment       = "#908878",      -- fixed typo
+  dim           = "#746c64",
+  comment       = "#70685f",
   variable      = "#5c544c",
 
   -- ═══════════════════════════════════════════════════════════════════
   -- COOL (morning sky)
   -- ═══════════════════════════════════════════════════════════════════
-  keyword       = "#6080a0",
-  class         = "#2898a8",
-  type_builtin  = "#38a8b8",
-  cyan          = "#2898a8",
+  keyword       = "#52718f",
+  class         = "#197985",
+  type_builtin  = "#137682",
+  cyan          = "#197985",
 
   -- ═══════════════════════════════════════════════════════════════════
   -- WARM (sunrise glow)
   -- ═══════════════════════════════════════════════════════════════════
-  method        = "#c06820",
-  string        = "#9858a8",
-  number        = "#b85830",
-  decorator     = "#d07028",
-  yellow        = "#a87820",
-  red           = "#c84848",
+  method        = "#a55718",
+  string        = "#9252a2",
+  number        = "#aa4f29",
+  decorator     = "#aa5718",
+  yellow        = "#8b6418",
+  red           = "#b83c3c",
 
   -- ═══════════════════════════════════════════════════════════════════
   -- TERMINAL
   -- ═══════════════════════════════════════════════════════════════════
   terminal = {
-    black         = "#f0f1ff",
-    black_bright  = "#f0f1ff",
-    black_dim     = "#ebeefd",
+    black         = "#2c2420",
+    black_bright  = "#5c544c",
+    black_dim     = "#746c64",
     red           = "#c84848",
     red_bright    = "#d85858",
     red_dim       = "#b83838",
@@ -63,9 +63,9 @@ local palette = {
     cyan          = "#38a8b8",
     cyan_bright   = "#48b8c8",
     cyan_dim      = "#2898a8",
-    white         = "#101010",
-    white_bright  = "#404040",
-    white_dim     = "#707070",
+    white         = "#d8d0c4",
+    white_bright  = "#faf8f5",
+    white_dim     = "#ebe7e0",
   },
 }
 

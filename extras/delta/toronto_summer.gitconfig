@@ -1,0 +1,36 @@
+# Toronto Summer theme for Delta
+# https://github.com/your-username/toronto.nvim
+# Add this to your .gitconfig in [delta] section or include this file
+
+[delta "toronto-summer"]
+    # General
+    dark = false
+    syntax-theme = none
+
+    # Colors
+    minus-style = "#a74449"
+    minus-emph-style = "#a74449 bold"
+    minus-non-emph-style = "#a74449"
+    plus-style = "#8f551a"
+    plus-emph-style = "#8f551a bold"
+    plus-non-emph-style = "#8f551a"
+
+    # Line numbers
+    line-numbers = true
+    line-numbers-left-style = "#785f4f"
+    line-numbers-right-style = "#785f4f"
+    line-numbers-minus-style = "#a74449"
+    line-numbers-plus-style = "#8f551a"
+    line-numbers-zero-style = "#785f4f"
+
+    # File headers
+    file-style = "#281d15 bold"
+    file-decoration-style = "#8f551a ul"
+
+    # Hunk headers
+    hunk-header-style = "#8f551a bold"
+    hunk-header-decoration-style = "#8f551a ul"
+
+    # Commit style
+    commit-style = "#80641f bold"
+    commit-decoration-style = "none"

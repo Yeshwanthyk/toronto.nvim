@@ -10,8 +10,8 @@ local palette = {
   border        = "#1d2632",
 
   fg            = "#c3cad2",
-  dim           = "#6c7580",
-  comment       = "#59636f",
+  dim           = "#78828d",
+  comment       = "#76818d",
   variable      = "#b5bec8",
 
   keyword       = "#87919b",

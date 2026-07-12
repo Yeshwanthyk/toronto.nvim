@@ -1,0 +1,55 @@
+# Toronto Dawn theme for Alacritty
+# https://github.com/your-username/toronto.nvim
+
+[colors.primary]
+background = "#faf8f5"
+foreground = "#2c2420"
+dim_foreground = "#746c64"
+
+[colors.cursor]
+text = "#faf8f5"
+cursor = "#2c2420"
+
+[colors.vi_mode_cursor]
+text = "#faf8f5"
+cursor = "#8b6418"
+
+[colors.selection]
+text = "CellForeground"
+background = "#e4dcd0"
+
+[colors.search.matches]
+foreground = "#faf8f5"
+background = "#8b6418"
+
+[colors.search.focused_match]
+foreground = "#faf8f5"
+background = "#a55718"
+
+[colors.line_indicator]
+foreground = "None"
+background = "None"
+
+[colors.footer_bar]
+foreground = "#2c2420"
+background = "#f4f1ec"
+
+[colors.normal]
+black = "#2c2420"
+red = "#c84848"
+green = "#2898a8"
+yellow = "#c06820"
+blue = "#6080a0"
+magenta = "#9858a8"
+cyan = "#38a8b8"
+white = "#d8d0c4"
+
+[colors.bright]
+black = "#5c544c"
+red = "#d85858"
+green = "#38a8b8"
+yellow = "#d07830"
+blue = "#7090b0"
+magenta = "#a868b8"
+cyan = "#48b8c8"
+white = "#faf8f5"
