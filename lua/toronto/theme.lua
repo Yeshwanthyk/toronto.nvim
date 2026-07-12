@@ -26,6 +26,18 @@ end
 function M.get_variant_overrides(variant, colors)
   if variant == 'spring' then
     return {
+      Directory = { fg = colors.method },
+
+      -- Keep the cool dark UI quiet; reserve the accent colors for code.
+      PmenuSel      = { fg = colors.fg, bg = colors.visual, bold = true },
+      PmenuKindSel  = { fg = colors.method, bg = colors.visual, bold = true },
+      PmenuExtraSel = { fg = colors.dim, bg = colors.visual },
+      WildMenu      = { fg = colors.fg, bg = colors.visual, bold = true },
+
+      TelescopeResultsTitle = { fg = colors.class, bg = colors.ui_bg, bold = true },
+      TelescopePreviewTitle = { fg = colors.method, bg = colors.ui_bg, bold = true },
+      TelescopePromptTitle  = { fg = colors.string, bg = colors.ui_bg, bold = true },
+
       DiffAdd     = { fg = colors.class },
       GitSignsAdd = { fg = colors.class },
     }

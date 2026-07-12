@@ -2,54 +2,54 @@
 # https://github.com/your-username/toronto.nvim
 
 [colors.primary]
-background = "#0b0f17"
-foreground = "#c3cad2"
-dim_foreground = "#78828d"
+background = "#090b0f"
+foreground = "#d0d5dc"
+dim_foreground = "#929aa5"
 
 [colors.cursor]
-text = "#0b0f17"
-cursor = "#c3cad2"
+text = "#090b0f"
+cursor = "#d0d5dc"
 
 [colors.vi_mode_cursor]
-text = "#0b0f17"
-cursor = "#c4aa70"
+text = "#090b0f"
+cursor = "#d0b77e"
 
 [colors.selection]
 text = "CellForeground"
-background = "#1b2635"
+background = "#1b2330"
 
 [colors.search.matches]
-foreground = "#0b0f17"
-background = "#c4aa70"
+foreground = "#090b0f"
+background = "#d0b77e"
 
 [colors.search.focused_match]
-foreground = "#0b0f17"
-background = "#9bb7c9"
+foreground = "#090b0f"
+background = "#a8c6d6"
 
 [colors.line_indicator]
 foreground = "None"
 background = "None"
 
 [colors.footer_bar]
-foreground = "#c3cad2"
-background = "#101622"
+foreground = "#d0d5dc"
+background = "#0e1117"
 
 [colors.normal]
-black = "#0b0f17"
-red = "#c58b86"
-green = "#a4bf9a"
-yellow = "#c4aa70"
-blue = "#8eb0c8"
-magenta = "#c09a90"
-cyan = "#85a9bf"
-white = "#c3cad2"
+black = "#090b0f"
+red = "#d19591"
+green = "#a9c9b1"
+yellow = "#d0b77e"
+blue = "#9fbfd4"
+magenta = "#d2aaa3"
+cyan = "#93bac9"
+white = "#d0d5dc"
 
 [colors.bright]
-black = "#59636f"
-red = "#d49d98"
-green = "#b6ccb0"
-yellow = "#d2bb83"
-blue = "#a1bfd3"
-magenta = "#cfaaa1"
-cyan = "#9bb7c9"
-white = "#d4dae0"
+black = "#5c6470"
+red = "#dfa9a5"
+green = "#bdd8c3"
+yellow = "#dfc994"
+blue = "#b4d0e2"
+magenta = "#e0c0b8"
+cyan = "#acd0dc"
+white = "#e0e4ea"
