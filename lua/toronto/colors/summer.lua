@@ -6,11 +6,11 @@ local palette = {
   -- BACKGROUND (sun-baked parchment)
   -- ═══════════════════════════════════════════════════════════════════
   bg            = "#f8efe1",
-  ui_bg         = "#f3e5d1",
-  ui_bg_alt     = "#f0ddc2",
-  cursorline    = "#eedbc0",
-  visual        = "#e4ccaa",
-  border        = "#d7bfa0",
+  ui_bg         = "#f1e5d4",
+  ui_bg_alt     = "#eadecd",
+  cursorline    = "#e8dccb",
+  visual        = "#dacebe",
+  border        = "#cec1b1",
 
   -- ═══════════════════════════════════════════════════════════════════
   -- FOREGROUND

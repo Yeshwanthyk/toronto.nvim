@@ -16,7 +16,7 @@ cursor = "#bea66d"
 
 [colors.selection]
 text = "CellForeground"
-background = "#252d3b"
+background = "#262d3a"
 
 [colors.search.matches]
 foreground = "#15171b"

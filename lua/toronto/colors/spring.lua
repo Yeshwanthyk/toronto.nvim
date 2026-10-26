@@ -6,7 +6,7 @@ local palette = {
   ui_bg         = "#1a1d24",
   ui_bg_alt     = "#1e232d",
   cursorline    = "#1b202a",
-  visual        = "#252d3b",
+  visual        = "#262d3a",
   border        = "#333944",
 
   fg            = "#cbcfd6",

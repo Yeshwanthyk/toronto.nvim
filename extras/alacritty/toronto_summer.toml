@@ -16,7 +16,7 @@ cursor = "#72570b"
 
 [colors.selection]
 text = "CellForeground"
-background = "#e4ccaa"
+background = "#dacebe"
 
 [colors.search.matches]
 foreground = "#f8efe1"
@@ -32,7 +32,7 @@ background = "None"
 
 [colors.footer_bar]
 foreground = "#31251d"
-background = "#f3e5d1"
+background = "#f1e5d4"
 
 [colors.normal]
 black = "#31251d"

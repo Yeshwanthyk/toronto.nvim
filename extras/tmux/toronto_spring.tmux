@@ -21,7 +21,7 @@ set -g message-style "bg=#8eadc2,fg=#15171b,bold"
 set -g message-command-style "bg=#96b4c4,fg=#15171b,bold"
 
 # Copy mode
-set -g mode-style "bg=#252d3b,fg=#cbcfd6"
+set -g mode-style "bg=#262d3a,fg=#cbcfd6"
 
 # Clock
 set -g clock-mode-colour "#96b4c4"
