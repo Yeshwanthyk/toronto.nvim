@@ -8,29 +8,29 @@
     syntax-theme = none
 
     # Colors
-    minus-style = "#a74449"
-    minus-emph-style = "#a74449 bold"
-    minus-non-emph-style = "#a74449"
-    plus-style = "#8f551a"
-    plus-emph-style = "#8f551a bold"
-    plus-non-emph-style = "#8f551a"
+    minus-style = "#97363c"
+    minus-emph-style = "#97363c bold"
+    minus-non-emph-style = "#97363c"
+    plus-style = "#804704"
+    plus-emph-style = "#804704 bold"
+    plus-non-emph-style = "#804704"
 
     # Line numbers
     line-numbers = true
-    line-numbers-left-style = "#785f4f"
-    line-numbers-right-style = "#785f4f"
-    line-numbers-minus-style = "#a74449"
-    line-numbers-plus-style = "#8f551a"
-    line-numbers-zero-style = "#785f4f"
+    line-numbers-left-style = "#765e4e"
+    line-numbers-right-style = "#765e4e"
+    line-numbers-minus-style = "#97363c"
+    line-numbers-plus-style = "#804704"
+    line-numbers-zero-style = "#765e4e"
 
     # File headers
-    file-style = "#281d15 bold"
-    file-decoration-style = "#8f551a ul"
+    file-style = "#31251d bold"
+    file-decoration-style = "#804704 ul"
 
     # Hunk headers
-    hunk-header-style = "#8f551a bold"
-    hunk-header-decoration-style = "#8f551a ul"
+    hunk-header-style = "#804704 bold"
+    hunk-header-decoration-style = "#804704 ul"
 
     # Commit style
-    commit-style = "#80641f bold"
+    commit-style = "#72570b bold"
     commit-decoration-style = "none"

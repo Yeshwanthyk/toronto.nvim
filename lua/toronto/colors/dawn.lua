@@ -5,46 +5,46 @@ local palette = {
   -- ═══════════════════════════════════════════════════════════════════
   -- BACKGROUND (warm white, hint of sunrise)
   -- ═══════════════════════════════════════════════════════════════════
-  bg            = "#faf8f5",
-  ui_bg         = "#f4f1ec",
-  ui_bg_alt     = "#ebe7e0",
-  cursorline    = "#f0ece5",
-  visual        = "#e4dcd0",
-  border        = "#d8d0c4",
+  bg            = "#edece9",
+  ui_bg         = "#e7e4df",
+  ui_bg_alt     = "#e2ded7",
+  cursorline    = "#e5e1da",
+  visual        = "#d6cec2",
+  border        = "#c6beb2",
 
   -- ═══════════════════════════════════════════════════════════════════
   -- FOREGROUND
   -- ═══════════════════════════════════════════════════════════════════
-  fg            = "#2c2420",
-  dim           = "#746c64",
-  comment       = "#70685f",
-  variable      = "#5c544c",
+  fg            = "#2f2722",
+  dim           = "#686059",
+  comment       = "#6d665d",
+  variable      = "#4c443d",
 
   -- ═══════════════════════════════════════════════════════════════════
   -- COOL (morning sky)
   -- ═══════════════════════════════════════════════════════════════════
-  keyword       = "#52718f",
-  class         = "#197985",
-  type_builtin  = "#137682",
-  cyan          = "#197985",
+  keyword       = "#3a5874",
+  class         = "#005e6a",
+  type_builtin  = "#005c67",
+  cyan          = "#005e6a",
 
   -- ═══════════════════════════════════════════════════════════════════
   -- WARM (sunrise glow)
   -- ═══════════════════════════════════════════════════════════════════
-  method        = "#a55718",
-  string        = "#9252a2",
-  number        = "#aa4f29",
-  decorator     = "#aa5718",
-  yellow        = "#8b6418",
-  red           = "#b83c3c",
+  method        = "#893e00",
+  string        = "#773987",
+  number        = "#8d3508",
+  decorator     = "#8e3d00",
+  yellow        = "#714b00",
+  red           = "#9b1d24",
 
   -- ═══════════════════════════════════════════════════════════════════
   -- TERMINAL
   -- ═══════════════════════════════════════════════════════════════════
   terminal = {
-    black         = "#2c2420",
-    black_bright  = "#5c544c",
-    black_dim     = "#746c64",
+    black         = "#2f2722",
+    black_bright  = "#4c443d",
+    black_dim     = "#686059",
     red           = "#c84848",
     red_bright    = "#d85858",
     red_dim       = "#b83838",
@@ -63,9 +63,9 @@ local palette = {
     cyan          = "#38a8b8",
     cyan_bright   = "#48b8c8",
     cyan_dim      = "#2898a8",
-    white         = "#d8d0c4",
-    white_bright  = "#faf8f5",
-    white_dim     = "#ebe7e0",
+    white         = "#c6beb2",
+    white_bright  = "#edece9",
+    white_dim     = "#e2ded7",
   },
 }
 

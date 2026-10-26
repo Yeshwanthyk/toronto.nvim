@@ -30,7 +30,7 @@ Plug 'Yeshwanthyk/toronto.nvim'
 
 | Variant | Background | Notes |
 |---------|------------|-------|
-| `dusk` | dark | near-black, warm, muted |
+| `dusk` | dark | charcoal, warm, muted |
 | `spring` | dark | cool, dim blue |
 | `dawn` | light | warm off-white |
 | `summer` | light | parchment, terracotta |

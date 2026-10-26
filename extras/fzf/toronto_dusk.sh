@@ -3,8 +3,8 @@
 # https://github.com/your-username/toronto.nvim
 
 export FZF_DEFAULT_OPTS="$FZF_DEFAULT_OPTS \
-  --color=fg:d4d2cb,bg:08090b,hl:d9bc7e \
-  --color=fg+:d4d2cb,bg+:121318,hl+:d9bc7e \
-  --color=info:cf9b73,prompt:d9bc7e,pointer:d9bc7e \
-  --color=marker:d2b56f,spinner:94918a,header:85837d \
-  --color=border:27282e"
+  --color=fg:d1cfc8,bg:161719,hl:cdb073 \
+  --color=fg+:d1cfc8,bg+:1e1f25,hl+:cdb073 \
+  --color=info:c49169,prompt:cdb073,pointer:cdb073 \
+  --color=marker:c6aa64,spinner:929089,header:86847e \
+  --color=border:37383f"

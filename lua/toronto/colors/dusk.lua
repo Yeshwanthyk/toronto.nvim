@@ -5,69 +5,69 @@ local palette = {
   -- ═══════════════════════════════════════════════════════════════════
   -- BACKGROUND (noir graphite)
   -- ═══════════════════════════════════════════════════════════════════
-  bg            = "#08090b",
-  ui_bg         = "#0d0e11",
-  ui_bg_alt     = "#121318",
-  cursorline    = "#121318",
-  visual        = "#1c1d22",
-  border        = "#27282e",
+  bg            = "#161719",
+  ui_bg         = "#1d1e21",
+  ui_bg_alt     = "#222328",
+  cursorline    = "#1e1f25",
+  visual        = "#2b2c32",
+  border        = "#37383f",
 
   -- ═══════════════════════════════════════════════════════════════════
   -- FOREGROUND (warm, subdued contrast)
   -- ═══════════════════════════════════════════════════════════════════
-  fg            = "#d4d2cb",
-  dim           = "#94918a",
-  comment       = "#85837d",
-  variable      = "#c3c0b9",
+  fg            = "#d1cfc8",
+  dim           = "#929089",
+  comment       = "#86847e",
+  variable      = "#bfbdb6",
 
   -- ═══════════════════════════════════════════════════════════════════
   -- COOL SPECTRUM (receded Toronto blue)
   -- ═══════════════════════════════════════════════════════════════════
-  keyword       = "#aba79f",
-  class         = "#b8c7bb",
-  type_builtin  = "#a9c5c1",
-  cyan          = "#91b8bc",
+  keyword       = "#a09d95",
+  class         = "#acbbaf",
+  type_builtin  = "#9ebab6",
+  cyan          = "#86adb0",
 
   -- ═══════════════════════════════════════════════════════════════════
   -- TWILIGHT PURPLE (dusty rose)
   -- ═══════════════════════════════════════════════════════════════════
-  string        = "#d2aca3",
-  decorator     = "#c4a9bd",
+  string        = "#c6a098",
+  decorator     = "#b99eb2",
 
   -- ═══════════════════════════════════════════════════════════════════
   -- WARM (amber focus)
   -- ═══════════════════════════════════════════════════════════════════
-  method        = "#d9bc7e",
-  number        = "#cf9b73",
-  yellow        = "#d2b56f",
-  red           = "#ce8585",
+  method        = "#cdb073",
+  number        = "#c49169",
+  yellow        = "#c6aa64",
+  red           = "#c37b7c",
 
   -- ═══════════════════════════════════════════════════════════════════
   -- TERMINAL
   -- ═══════════════════════════════════════════════════════════════════
   terminal = {
-    black          = "#08090b",
+    black          = "#161719",
     black_bright   = "#5b5a56",
     black_dim      = "#030405",
-    red            = "#ce8585",
+    red            = "#c37b7c",
     red_bright     = "#dc9999",
     red_dim        = "#aa6c6c",
-    green          = "#b8c7bb",
+    green          = "#acbbaf",
     green_bright   = "#c9d5ca",
     green_dim      = "#91a095",
-    yellow         = "#d9bc7e",
+    yellow         = "#cdb073",
     yellow_bright  = "#e6cb91",
     yellow_dim     = "#b49562",
-    blue           = "#91b8bc",
+    blue           = "#86adb0",
     blue_bright    = "#a8cbcf",
     blue_dim       = "#739397",
-    magenta        = "#c4a9bd",
+    magenta        = "#b99eb2",
     magenta_bright = "#d3bacb",
     magenta_dim    = "#9f8999",
-    cyan           = "#a9c5c1",
+    cyan           = "#9ebab6",
     cyan_bright    = "#bfdbd4",
     cyan_dim       = "#839c98",
-    white          = "#d4d2cb",
+    white          = "#d1cfc8",
     white_bright   = "#e3e0d8",
     white_dim      = "#aaa8a1",
   },
